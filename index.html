@@ -1,0 +1,174 @@
+
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
+    <!--<meta name="description" content="">-->
+    <!--<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">-->
+    <!--<meta name="generator" content="Jekyll v3.8.5">-->
+    <title>模拟商品列表页</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/product/">
+
+    <!-- Bootstrap core CSS -->
+    <!--<link href="./css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
+
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.225rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: auto;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="product.css" rel="stylesheet">
+</head>
+<body>
+<nav class="site-header sticky-top py-1">
+    <div class="container d-flex flex-column flex-md-row justify-content-between">
+        <!--<a class="py-2" href="#">-->
+
+            <!--&lt;!&ndash;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>&ndash;&gt;-->
+        <!--</a>-->
+
+        <!--<div class="header-logo">-->
+            <!--&lt;!&ndash;<a class="logo ir" href="//www.mi.com/index.html" title="小米官网" data-stat-id="1de2e5c522d7b543" onclick="_msq.push(['trackEvent', '81190ccc4d52f577-1de2e5c522d7b543', '//www.mi.com/index.html', 'pcpid', '']);">小米官网</a>&ndash;&gt;-->
+        <!--</div>-->
+        <a class="py-2 d-none d-md-inline-block" href="#">商城概览</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">商品详情</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">特色商品</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">企业文化</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">售后服务</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">购物车</a>
+    </div>
+</nav>
+
+<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+
+    <!--<a class="title" href="//www.mi.com/p/1915.html" data-stat-id="6f5c93b4d1baf5e9" onclick="_msq.push(['trackEvent', '81190ccc4d52f577-6f5c93b4d1baf5e9', '//www.mi.com/p/1915.html', 'pcpid', '']);">手机 电话卡<i class="iconfont"></i></a>-->
+
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+        <h1 class="display-4 font-weight-normal">手机之家</h1>
+        <p class="lead font-weight-normal">手机掌控天下，一机在手万事无忧！掌控你的智能生活！</p>
+        <a class="btn btn-outline-secondary" href="#">即将推出</a>
+    </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+</div>
+
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 py-3">
+            <h2 class="display-5">华为 Mate 30</h2>
+            <p class="lead">如果你喜欢简单。我的细节会让你感动！</p>
+        </div>
+        <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+            <img class="image" src="./img/huawei.png">
+        </div>
+
+    </div>
+    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+            <h2 class="display-5">Samsung Universe U9000</h2>
+            <p class="lead">三星三星，M卡必精。</p>
+        </div>
+        <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img src="./img/samsung.png"></div>
+
+    </div>
+</div>
+
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+            <h2 class="display-5">OPPO R18 Pro</h2>
+            <p class="lead">oppo 聆听， 如此优雅。</p>
+        </div>
+        <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img src="./img/oppo.png"></div>
+    </div>
+    <div class="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 py-3">
+            <h2 class="display-5">小米 10 Pro</h2>
+            <p class="lead">不求深入人心，但求精益求精</p>
+        </div>
+        <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img src="./img/xiaomi.png"></div>
+    </div>
+</div>
+
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 p-3">
+            <h2 class="display-5">Nokia Reborn</h2>
+            <p class="lead">东山再起，重头再来！</p>
+        </div>
+        <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"> <img src="./img/nokia.png">   </div>
+    </div>
+    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+        <div class="my-3 py-3">
+            <h2 class="display-5">Iphone F</h2>
+            <p class="lead">重新定义手机！</p>
+        </div>
+        <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"><img src="./img/iphone.png"></div>
+    </div>
+</div>
+
+
+
+<footer class="container py-5">
+    <div class="row">
+        <!--<div class="col-12 col-md">-->
+            <!--<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>-->
+            <!--<small class="d-block mb-3 text-muted">&copy; 2017-2019</small>-->
+        <!--</div>-->
+        <div class="col-6 col-md">
+            <h5>帮助中心</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">账户管理</a></li>
+                <li><a class="text-muted" href="#">购物指南</a></li>
+                <li><a class="text-muted" href="#">订单操作</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-md">
+            <h5>服务支持</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">售后政策</a></li>
+                <li><a class="text-muted" href="#">自助服务</a></li>
+                <li><a class="text-muted" href="#">相关下载</a></li>
+
+            </ul>
+        </div>
+        <div class="col-6 col-md">
+            <h5>线下门店</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">网购之家</a></li>
+                <li><a class="text-muted" href="#">服务网点</a></li>
+                <li><a class="text-muted" href="#">授权体验</a></li>
+
+            </ul>
+        </div>
+        <div class="col-6 col-md">
+            <h5>关于我们</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">团队建设</a></li>
+                <li><a class="text-muted" href="#">官方微信</a></li>
+                <li><a class="text-muted" href="#">隐私条约</a></li>
+                <li><a class="text-muted" href="#">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
